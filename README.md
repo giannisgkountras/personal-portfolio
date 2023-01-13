@@ -1,6 +1,6 @@
 # Portfolio
 
-This is a personal portfolio website created to showcase my skills, projects and experiences as an Electrial and Computer Engineering student and developer.
+This is a personal portfolio website created to showcase my skills, projects and experiences as an Electrical and Computer Engineering student and developer.
 
 ## Getting Started
 
@@ -14,23 +14,36 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 Clone the repository and navigate to the project directory
-```git clone https://github.com/giannisgkountras/personal-portfolio.git```
-```cd personal-portfolio```
+```
+git clone https://github.com/giannisgkountras/personal-portfolio.git
+```
+```
+cd personal-portfolio
+```
 
 Install the dependencies
-`npm install`
+```
+npm install
+```
 
 or
-`yarn install`
+```
+yarn install
+```
 
 ### Running the project
 
 Start the development server
-```npm start```
+```
+npm start
+```
 
 Copy code
 or
-```yarn start```
+
+```
+yarn start
+```
 
 Copy code
 
@@ -43,7 +56,7 @@ The project will be running at http://localhost:3000
 
 ## Author
 
--   **Giannis Gkountras** - [Your GitHub Profile](https://github.com/giannisgkountras)
+-   **Giannis Gkountras** - [My GitHub Profile](https://github.com/giannisgkountras)
 
 ## Acknowledgments
 
