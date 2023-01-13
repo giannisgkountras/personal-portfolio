@@ -14,8 +14,8 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 Clone the repository and navigate to the project directory
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+```git clone https://github.com/giannisgkountras/personal-portfolio.git```
+```cd personal-portfolio```
 
 Install the dependencies
 `npm install`
@@ -26,11 +26,11 @@ or
 ### Running the project
 
 Start the development server
-`npm start`
+```npm start```
 
 Copy code
 or
-`yarn start`
+```yarn start```
 
 Copy code
 
