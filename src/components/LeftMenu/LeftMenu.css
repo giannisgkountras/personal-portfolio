@@ -1,7 +1,7 @@
 .left-menu {
     width: 100%;
     height: 50px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
@@ -10,8 +10,21 @@
     align-items: flex-end;
     animation: slide-in 2s forwards;
     transform: translateY(-100%);
+    transition: background-color 1s ease;
+    z-index: 1;
+    padding: 0 0 1rem 0;
+    background-color: transparent;
 }
-
+.left-menu.scrolled {
+    /* background: rgb(0, 0, 0); */
+    background-color: #000019f5;
+    /* background-color: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(0, 0, 0, 1) 57%,
+        rgba(0, 212, 255, 0) 100%
+    ); */
+}
 @keyframes slide-in {
     from {
         transform: translateY(-100%);

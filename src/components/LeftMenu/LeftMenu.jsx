@@ -5,6 +5,15 @@ import github from "../../assets/git.png";
 import linkedin from "../../assets/linkedin.png";
 import gmail from "../../assets/gmail.png";
 import gitlab from "../../assets/gitlab.svg";
+
+window.addEventListener("scroll", function () {
+    var menu = document.querySelector(".left-menu");
+    if (window.scrollY > 0) {
+        menu.classList.add("scrolled");
+    } else {
+        menu.classList.remove("scrolled");
+    }
+});
 export default function LeftMenu() {
     return (
         <div className="left-menu">
@@ -14,7 +23,7 @@ export default function LeftMenu() {
                     <a className="menu-link" href="#about">
                         About
                     </a>
-                    <a className="menu-link" href="/">
+                    <a className="menu-link" href="#projects">
                         Projects
                     </a>
 

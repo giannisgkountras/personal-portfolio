@@ -5,6 +5,7 @@ html {
     text-align: center;
     background-image: url("./assets/bg.png");
     background-size: cover;
+    /* padding: 0 !important; */
     background-attachment: fixed;
     color: #e6e6e6;
     /* background: #0f0c29; */
