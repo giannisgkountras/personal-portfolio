@@ -5,24 +5,13 @@ html {
     text-align: center;
     background-image: url("./assets/bg.png");
     background-size: cover;
-    /* padding: 0 !important; */
     background-attachment: fixed;
     color: #e6e6e6;
     height: 100%;
     width: 100%;
     /* background: #0f0c29; */
-    /* background: -webkit-linear-gradient(
-        to right,
-        #24243e,
-        #302b63,
-        #0f0c29
-    ); 
-    background: linear-gradient(
-        to right,
-        #24243e,
-        #302b63,
-        #0f0c29
-    );  */
+    /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); */
 
     font-family: "century";
 

@@ -27,7 +27,7 @@ export default function LeftMenu() {
                         Projects
                     </a>
 
-                    <a className="menu-link" href="/">
+                    <a className="menu-link" href="#education">
                         Education
                     </a>
 

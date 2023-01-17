@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import orana from "../../assets/orana.png";
 import labbro from "../../assets/labbro.png";
 import talos from "../../assets/talos.png";
+import tictactoe from "../../assets/tictactoe.png";
 import right from "../../assets/right.png";
 import left from "../../assets/left.png";
 import "./ProjectSlider.css";
@@ -10,16 +11,18 @@ import "./ProjectSlider.css";
 const ProjectSlider = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [prevIndex, setPrevIndex] = useState(null);
-    const images = [orana, labbro, talos];
+    const images = [orana, labbro, talos, tictactoe];
     const descriptions = [
         "The website of my start-up, Orana.",
         "The Lab Bro portal project.",
         "A website for a gym.",
+        "A two player tic-tac-toe game made in React.",
     ];
     const links = [
         "https://orana.gr",
         "https://labbro.gr",
         "https://talos-website.netlify.app",
+        "https://tic-tac-toe-giannis.netlify.app/",
     ];
 
     useEffect(() => {
