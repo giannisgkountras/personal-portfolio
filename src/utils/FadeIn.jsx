@@ -11,7 +11,7 @@ function FadeIn({ children }) {
     return (
         <div
             ref={ref}
-            style={{ opacity: inView ? 1 : 0, transition: "opacity 3s" }}
+            style={{ opacity: inView ? 1 : 0, transition: "opacity 2s" }}
         >
             {children}
         </div>

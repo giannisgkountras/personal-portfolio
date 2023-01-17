@@ -33,9 +33,10 @@
     width: 100%;
 }
 .about-title {
-    font-size: 60px;
-    margin-left: 13rem;
+    font-size: 90px;
+    /* margin-left: 13rem; */
     margin-top: 5rem;
+    color: #fff6f6;
 }
 
 .boxes-container {
@@ -114,13 +115,13 @@
 }
 .tech-stack {
     font-size: 50px;
-    margin: 0 0 3rem 5rem;
-    text-align: left;
+    margin: 0 0 0rem 0rem;
+    text-align: center;
 }
 .about-me {
     font-size: 50px;
-    margin: 0 0 2rem 10rem;
-    text-align: left;
+    margin: 0 0 2rem 0rem;
+    text-align: center;
 }
 .about-text {
     font-size: 25px;

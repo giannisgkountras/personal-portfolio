@@ -8,6 +8,8 @@ html {
     /* padding: 0 !important; */
     background-attachment: fixed;
     color: #e6e6e6;
+    height: 100%;
+    width: 100%;
     /* background: #0f0c29; */
     /* background: -webkit-linear-gradient(
         to right,

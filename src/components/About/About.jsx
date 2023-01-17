@@ -9,12 +9,10 @@ import js from "../../assets/js.png";
 export default function About() {
     return (
         <div id="about" className="about-screen">
-            <div className="header">
-                <h1 className="about-title">My skills</h1>
-            </div>
+            <h1 className="about-title">My skills</h1>
             <div className="row">
                 <div className="half-screen smaller">
-                    <h1 className="about-me">About me:</h1>
+                    <h1 className="about-me">About me</h1>
                     <div className="boxes-container">
                         <p className="about-text">
                             I am an undergraduate Electrical and Computer
@@ -39,7 +37,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="half-screen">
-                    <h1 className="tech-stack">Tech Stack:</h1>
+                    <h1 className="tech-stack">Tech Stack</h1>
                     <div className="boxes-container">
                         <div className="box-row">
                             <div className="box">
