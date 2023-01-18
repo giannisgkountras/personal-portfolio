@@ -13,7 +13,7 @@ export default function MainComponent() {
                         <div className="profile-picture">
                             <img
                                 src={me}
-                                width="500px"
+                                width="600px"
                                 alt="Gkountras Ioannis"
                             />
                         </div>
@@ -25,6 +25,16 @@ export default function MainComponent() {
                                 user-friendly websites and applications. Let's
                                 make the web a better place together!
                             </p>
+                            <div className="center">
+                                <a
+                                    className="cv-btn"
+                                    href="https://drive.google.com/file/d/1a6O_J7suAr90RmC4zaPcnvLXe1nTyDCv/view?usp=sharing"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    View my CV here
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </FadeIn>
